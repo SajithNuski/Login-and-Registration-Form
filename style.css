@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #eff4ff, #ffe5c4);
+  color: #333;
+}
+
+.container {
+  margin: 0 15px;
+}
+
+.form-box {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.form-box.active {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  background: #eee;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #f68d14;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p a {
+  color: #3675ea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.flash-message {
+  padding: 12px;
+  border-radius: 6px;
+  margin: 0 0 16px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.flash-message.error {
+  background-color: #fde8ea;
+  color: #842029;
+  border-color: #f5c2c7;
+}
+
+.flash-message.success {
+  background-color: #d1f7e1;
+  color: #0f5132;
+  border-color: #a3cfbb;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+h1 span {
+  color: #f68d14;
+}
+.box p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.box button {
+  display: block;              
+  margin: 0 auto;              
+  width: 150px;
+  padding: 10px;
+  background: #f68d14;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
